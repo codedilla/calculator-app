@@ -1,0 +1,65 @@
+:root {
+  /* Theme one */
+  /* Backgrounds */
+  --main-background: hsl(222, 26%, 31%);
+  --toogle-key-background: hsl(223, 31%, 20%);
+  --screen-background: hsl(224, 36%, 15%);
+  /* Keys */
+  --primary-keys-back: hsl(30, 25%, 89%);
+  --primary-shadow: hsl(28, 16%, 65%);
+  --secondary-keys: hsl(225, 21%, 49%);
+  --secondary-keys-shadow: hsl(224, 28%, 35%);
+  --tertiary-keys: hsl(6, 63%, 50%);
+  --tertiary-keys-shadow: hsl(6, 70%, 34%);
+  /* Text */
+  --dark-grayish: hsl(221, 14%, 31%);
+  --white-text: hsl(0, 0%, 100%);
+}
+
+[data-theme="theme-two"] {
+  /* Theme two */
+  /* Backgrounds */
+  --main-background: hsl(0, 0%, 90%);
+  --toogle-key-background: hsl(0, 5%, 81%);
+  --screen-background: hsl(0, 0%, 93%);
+  /* Keys */
+  --primary-keys-back: hsl(30, 25%, 89%);
+  --primary-shadow: hsl(28, 16%, 65%);
+  --secondary-keys: hsl(185, 42%, 37%);
+  --secondary-keys-shadow: hsl(185, 58%, 25%);
+  --tertiary-keys: hsl(25, 98%, 40%);
+  --tertiary-keys-shadow: hsl(25, 99%, 27%);
+  /* Text */
+  --dark-grayish-yellow: hsl(60, 10%, 19%);
+  --white-text: hsl(0, 0%, 100%);
+}
+
+[data-theme="theme-three"] {
+  /* Theme three */
+  /* Backgrounds */
+  --main-background: hsl(268, 75%, 9%);
+  --toogle-key-background: hsl(268, 71%, 12%);
+  --screen-background: hsl(268, 71%, 12%);
+  /* Keys */
+  --primary-keys-back: hsl(268, 47%, 21%);
+  --primary-shadow: hsl(290, 70%, 36%);
+  --secondary-keys: hsl(281, 89%, 26%);
+  --secondary-keys-shadow: hsl(285, 91%, 52%);
+  --tertiary-keys: hsl(176, 100%, 44%);
+  --tertiary-keys-shadow: hsl(177, 92%, 70%);
+  /* Text */
+  --Light-yellow: hsl(52, 100%, 62%);
+  --dark-blue: hsl(198, 20%, 13%);
+  --white-text: hsl(0, 0%, 100%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 2rem;
+  font-family: "League Spartan", sans-serif;
+}
